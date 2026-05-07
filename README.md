@@ -9,6 +9,16 @@ Ensure you have the following installed:
 The exercise is in `exercise_clean.ipynb`, and `exercise_executed.ipynb` is the pre-executed version for reference.
 
 ## Getting Started
+Make sure Docker is running before continuing, either by launching Docker Desktop or by running:
+
+```bash
+# macOS
+open -a Docker
+
+# Linux
+systemctl start docker
+```
+
 To launch the environment, run:
 ```bash
 docker-compose up -d
